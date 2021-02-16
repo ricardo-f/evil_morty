@@ -16,9 +16,9 @@ def describe_and_count():
 str_id = describe_and_count()
 id = describe_and_count().split()
 
-def shutdown():
-    result = client.stop_instances(InstanceIds=id)
-    x = result['StoppingInstances'][0]['CurrentState']
+def terminate():
+    result = client.terminate_instances(InstanceIds=id)
+    x = result['TerminatingInstances'][0]['CurrentState']
     return x
 
-print(shutdown())
+print(terminate())

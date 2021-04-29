@@ -4,7 +4,7 @@ jmespath==0.10.0
 python-dateutil==2.8.1
 s3transfer==0.3.4
 six==1.15.0
-urllib3==1.26.2
+urllib3==1.26.4
 aiohttp==3.7.3
 async-timeout==3.0.1
 attrs==20.3.0
@@ -23,5 +23,5 @@ requests==2.25.1
 s3transfer==0.3.4
 six==1.15.0
 typing-extensions==3.7.4.3
-urllib3==1.26.2
+urllib3==1.26.4
 yarl==1.6.3
